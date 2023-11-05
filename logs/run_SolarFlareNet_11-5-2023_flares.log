@@ -1,0 +1,248 @@
+
+
+[2023-11-05 12:09:09] Testing is initiated for time_window: 24 and flare class: C 
+[2023-11-05 12:09:18] Loading weights from model dir: models\24\C 
+[2023-11-05 12:09:19] Predicting test data set samples.. 
+[2023-11-05 12:09:38] Saving result to file: result\SolarFlareNet\C_24.csv 
+[2023-11-05 12:09:38] ===========================================================
+
+ 
+[2023-11-05 12:09:38] Testing is initiated for time_window: 24 and flare class: M 
+[2023-11-05 12:09:46] Loading weights from model dir: models\24\M 
+[2023-11-05 12:09:48] Predicting test data set samples.. 
+[2023-11-05 12:09:52] Saving result to file: result\SolarFlareNet\M_24.csv 
+[2023-11-05 12:09:52] ===========================================================
+
+ 
+[2023-11-05 12:09:52] Testing is initiated for time_window: 24 and flare class: M5 
+[2023-11-05 12:09:59] Loading weights from model dir: models\24\M5 
+[2023-11-05 12:10:01] Predicting test data set samples.. 
+[2023-11-05 12:10:05] Saving result to file: result\SolarFlareNet\M5_24.csv 
+[2023-11-05 12:10:05] ===========================================================
+
+ 
+[2023-11-05 12:10:05] Testing is initiated for time_window: 48 and flare class: C 
+[2023-11-05 12:10:15] Loading weights from model dir: models\48\C 
+[2023-11-05 12:10:16] Predicting test data set samples.. 
+[2023-11-05 12:10:21] Saving result to file: result\SolarFlareNet\C_48.csv 
+[2023-11-05 12:10:21] ===========================================================
+
+ 
+[2023-11-05 12:10:21] Testing is initiated for time_window: 48 and flare class: M 
+[2023-11-05 12:10:30] Loading weights from model dir: models\48\M 
+[2023-11-05 12:10:31] Predicting test data set samples.. 
+[2023-11-05 12:10:36] Saving result to file: result\SolarFlareNet\M_48.csv 
+[2023-11-05 12:10:37] ===========================================================
+
+ 
+[2023-11-05 12:10:37] Testing is initiated for time_window: 48 and flare class: M5 
+[2023-11-05 12:10:46] Loading weights from model dir: models\48\M5 
+[2023-11-05 12:10:47] Predicting test data set samples.. 
+[2023-11-05 12:10:52] Saving result to file: result\SolarFlareNet\M5_48.csv 
+[2023-11-05 12:10:52] ===========================================================
+
+ 
+[2023-11-05 12:10:52] Testing is initiated for time_window: 72 and flare class: C 
+[2023-11-05 12:11:02] Loading weights from model dir: models\72\C 
+[2023-11-05 12:11:03] Predicting test data set samples.. 
+[2023-11-05 12:11:08] Saving result to file: result\SolarFlareNet\C_72.csv 
+[2023-11-05 12:11:08] ===========================================================
+
+ 
+[2023-11-05 12:11:08] Testing is initiated for time_window: 72 and flare class: M 
+[2023-11-05 12:11:18] Loading weights from model dir: models\72\M 
+[2023-11-05 12:11:20] Predicting test data set samples.. 
+[2023-11-05 12:11:25] Saving result to file: result\SolarFlareNet\M_72.csv 
+[2023-11-05 12:11:25] ===========================================================
+
+ 
+[2023-11-05 12:11:25] Testing is initiated for time_window: 72 and flare class: M5 
+[2023-11-05 12:11:35] Loading weights from model dir: models\72\M5 
+[2023-11-05 12:11:37] Predicting test data set samples.. 
+[2023-11-05 12:11:42] Saving result to file: result\SolarFlareNet\M5_72.csv 
+[2023-11-05 12:11:42] ===========================================================
+
+ 
+Loading the train_model function...
+[2023-11-05 12:18:10] Training is initiated for time window: 24 and flare class: C 
+Epoch 1/20
+84/84 - 23s - loss: 0.7854 - accuracy: 0.6767 - 23s/epoch - 272ms/step
+Epoch 2/20
+84/84 - 5s - loss: 0.6885 - accuracy: 0.6981 - 5s/epoch - 58ms/step
+Epoch 3/20
+84/84 - 5s - loss: 0.6556 - accuracy: 0.7363 - 5s/epoch - 57ms/step
+Epoch 4/20
+84/84 - 5s - loss: 0.6387 - accuracy: 0.7450 - 5s/epoch - 54ms/step
+Epoch 5/20
+84/84 - 5s - loss: 0.6220 - accuracy: 0.7505 - 5s/epoch - 56ms/step
+Epoch 6/20
+84/84 - 5s - loss: 0.6044 - accuracy: 0.7561 - 5s/epoch - 55ms/step
+Epoch 7/20
+84/84 - 4s - loss: 0.5831 - accuracy: 0.7632 - 4s/epoch - 53ms/step
+Epoch 8/20
+84/84 - 5s - loss: 0.5613 - accuracy: 0.7723 - 5s/epoch - 55ms/step
+Epoch 9/20
+84/84 - 5s - loss: 0.5407 - accuracy: 0.7809 - 5s/epoch - 54ms/step
+Epoch 10/20
+84/84 - 4s - loss: 0.5277 - accuracy: 0.7854 - 4s/epoch - 53ms/step
+Epoch 11/20
+84/84 - 5s - loss: 0.5094 - accuracy: 0.7919 - 5s/epoch - 55ms/step
+Epoch 12/20
+84/84 - 5s - loss: 0.4973 - accuracy: 0.7942 - 5s/epoch - 54ms/step
+Epoch 13/20
+84/84 - 5s - loss: 0.4849 - accuracy: 0.7977 - 5s/epoch - 54ms/step
+Epoch 14/20
+84/84 - 4s - loss: 0.4758 - accuracy: 0.8009 - 4s/epoch - 53ms/step
+Epoch 15/20
+84/84 - 5s - loss: 0.4567 - accuracy: 0.8125 - 5s/epoch - 54ms/step
+Epoch 16/20
+84/84 - 5s - loss: 0.4490 - accuracy: 0.8179 - 5s/epoch - 54ms/step
+Epoch 17/20
+84/84 - 5s - loss: 0.4369 - accuracy: 0.8225 - 5s/epoch - 57ms/step
+Epoch 18/20
+84/84 - 5s - loss: 0.4247 - accuracy: 0.8282 - 5s/epoch - 54ms/step
+Epoch 19/20
+84/84 - 5s - loss: 0.4102 - accuracy: 0.8379 - 5s/epoch - 55ms/step
+Epoch 20/20
+84/84 - 4s - loss: 0.4035 - accuracy: 0.8452 - 4s/epoch - 52ms/step
+[2023-11-05 12:20:08] Saving model weights to directory: models\24\C 
+
+
+[2023-11-05 12:25:51] Training is initiated for time window: 24 and flare class: C 
+Epoch 1/20
+84/84 - 22s - loss: 0.7897 - accuracy: 0.6749 - 22s/epoch - 267ms/step
+Epoch 2/20
+84/84 - 4s - loss: 0.6870 - accuracy: 0.6785 - 4s/epoch - 42ms/step
+Epoch 3/20
+84/84 - 4s - loss: 0.6574 - accuracy: 0.6789 - 4s/epoch - 42ms/step
+Epoch 4/20
+84/84 - 4s - loss: 0.6299 - accuracy: 0.7237 - 4s/epoch - 42ms/step
+Epoch 5/20
+84/84 - 3s - loss: 0.6096 - accuracy: 0.7300 - 3s/epoch - 42ms/step
+Epoch 6/20
+84/84 - 3s - loss: 0.5898 - accuracy: 0.7340 - 3s/epoch - 42ms/step
+Epoch 7/20
+84/84 - 3s - loss: 0.5731 - accuracy: 0.7393 - 3s/epoch - 41ms/step
+Epoch 8/20
+84/84 - 3s - loss: 0.5580 - accuracy: 0.7469 - 3s/epoch - 42ms/step
+Epoch 9/20
+84/84 - 4s - loss: 0.5438 - accuracy: 0.7539 - 4s/epoch - 42ms/step
+Epoch 10/20
+84/84 - 4s - loss: 0.5282 - accuracy: 0.7622 - 4s/epoch - 43ms/step
+Epoch 11/20
+84/84 - 4s - loss: 0.5169 - accuracy: 0.7669 - 4s/epoch - 51ms/step
+Epoch 12/20
+84/84 - 5s - loss: 0.5000 - accuracy: 0.7764 - 5s/epoch - 55ms/step
+Epoch 13/20
+84/84 - 5s - loss: 0.4903 - accuracy: 0.7860 - 5s/epoch - 57ms/step
+Epoch 14/20
+84/84 - 5s - loss: 0.4795 - accuracy: 0.7903 - 5s/epoch - 58ms/step
+Epoch 15/20
+84/84 - 4s - loss: 0.4670 - accuracy: 0.8018 - 4s/epoch - 49ms/step
+Epoch 16/20
+84/84 - 3s - loss: 0.4560 - accuracy: 0.8064 - 3s/epoch - 42ms/step
+Epoch 17/20
+84/84 - 3s - loss: 0.4471 - accuracy: 0.8124 - 3s/epoch - 42ms/step
+Epoch 18/20
+84/84 - 3s - loss: 0.4358 - accuracy: 0.8182 - 3s/epoch - 41ms/step
+Epoch 19/20
+84/84 - 4s - loss: 0.4214 - accuracy: 0.8273 - 4s/epoch - 42ms/step
+Epoch 20/20
+84/84 - 3s - loss: 0.4125 - accuracy: 0.8332 - 3s/epoch - 42ms/step
+[2023-11-05 12:27:35] Saving model weights to directory: models\24\C 
+
+
+[2023-11-05 12:34:59] Training is initiated for time window: 24 and flare class: C 
+Epoch 1/20
+84/84 - 20s - loss: 0.7855 - accuracy: 0.6948 - 20s/epoch - 237ms/step
+Epoch 2/20
+84/84 - 3s - loss: 0.6738 - accuracy: 0.7322 - 3s/epoch - 32ms/step
+Epoch 3/20
+84/84 - 3s - loss: 0.6506 - accuracy: 0.7424 - 3s/epoch - 31ms/step
+Epoch 4/20
+84/84 - 3s - loss: 0.6281 - accuracy: 0.7487 - 3s/epoch - 31ms/step
+Epoch 5/20
+84/84 - 3s - loss: 0.6042 - accuracy: 0.7588 - 3s/epoch - 30ms/step
+Epoch 6/20
+84/84 - 3s - loss: 0.5826 - accuracy: 0.7667 - 3s/epoch - 30ms/step
+Epoch 7/20
+84/84 - 3s - loss: 0.5632 - accuracy: 0.7726 - 3s/epoch - 30ms/step
+Epoch 8/20
+84/84 - 2s - loss: 0.5423 - accuracy: 0.7775 - 2s/epoch - 30ms/step
+Epoch 9/20
+84/84 - 2s - loss: 0.5196 - accuracy: 0.7854 - 2s/epoch - 30ms/step
+Epoch 10/20
+84/84 - 2s - loss: 0.5025 - accuracy: 0.7890 - 2s/epoch - 29ms/step
+Epoch 11/20
+84/84 - 2s - loss: 0.4836 - accuracy: 0.7937 - 2s/epoch - 30ms/step
+Epoch 12/20
+84/84 - 2s - loss: 0.4704 - accuracy: 0.8004 - 2s/epoch - 29ms/step
+Epoch 13/20
+84/84 - 2s - loss: 0.4592 - accuracy: 0.7980 - 2s/epoch - 29ms/step
+Epoch 14/20
+84/84 - 2s - loss: 0.4391 - accuracy: 0.8083 - 2s/epoch - 29ms/step
+Epoch 15/20
+84/84 - 3s - loss: 0.4277 - accuracy: 0.8164 - 3s/epoch - 30ms/step
+Epoch 16/20
+84/84 - 3s - loss: 0.4206 - accuracy: 0.8252 - 3s/epoch - 32ms/step
+Epoch 17/20
+84/84 - 3s - loss: 0.4034 - accuracy: 0.8383 - 3s/epoch - 31ms/step
+Epoch 18/20
+84/84 - 3s - loss: 0.3949 - accuracy: 0.8399 - 3s/epoch - 30ms/step
+Epoch 19/20
+84/84 - 2s - loss: 0.3833 - accuracy: 0.8484 - 2s/epoch - 30ms/step
+Epoch 20/20
+84/84 - 3s - loss: 0.3671 - accuracy: 0.8560 - 3s/epoch - 30ms/step
+[2023-11-05 12:36:11] Saving model weights to directory: models\24\C 
+[2023-11-05 12:36:11] ===========================================================
+
+ 
+[2023-11-05 12:36:11] Training is initiated for time window: 24 and flare class: M 
+
+
+[2023-11-05 12:37:29] Training is initiated for time window: 24 and flare class: C 
+Epoch 1/20
+84/84 - 36s - loss: 0.7935 - accuracy: 0.6799 - 36s/epoch - 430ms/step
+Epoch 2/20
+84/84 - 5s - loss: 0.6764 - accuracy: 0.7281 - 5s/epoch - 57ms/step
+Epoch 3/20
+84/84 - 5s - loss: 0.6474 - accuracy: 0.7412 - 5s/epoch - 56ms/step
+Epoch 4/20
+84/84 - 5s - loss: 0.6209 - accuracy: 0.7563 - 5s/epoch - 56ms/step
+Epoch 5/20
+84/84 - 4s - loss: 0.5930 - accuracy: 0.7694 - 4s/epoch - 53ms/step
+Epoch 6/20
+84/84 - 5s - loss: 0.5697 - accuracy: 0.7800 - 5s/epoch - 55ms/step
+Epoch 7/20
+84/84 - 4s - loss: 0.5478 - accuracy: 0.7879 - 4s/epoch - 53ms/step
+Epoch 8/20
+84/84 - 5s - loss: 0.5191 - accuracy: 0.7994 - 5s/epoch - 54ms/step
+Epoch 9/20
+84/84 - 4s - loss: 0.4942 - accuracy: 0.8108 - 4s/epoch - 52ms/step
+Epoch 10/20
+84/84 - 5s - loss: 0.4786 - accuracy: 0.8166 - 5s/epoch - 54ms/step
+Epoch 11/20
+84/84 - 5s - loss: 0.4592 - accuracy: 0.8284 - 5s/epoch - 54ms/step
+Epoch 12/20
+84/84 - 5s - loss: 0.4433 - accuracy: 0.8324 - 5s/epoch - 55ms/step
+Epoch 13/20
+84/84 - 5s - loss: 0.4320 - accuracy: 0.8384 - 5s/epoch - 55ms/step
+Epoch 14/20
+84/84 - 5s - loss: 0.4165 - accuracy: 0.8473 - 5s/epoch - 58ms/step
+Epoch 15/20
+84/84 - 5s - loss: 0.3975 - accuracy: 0.8561 - 5s/epoch - 54ms/step
+Epoch 16/20
+84/84 - 5s - loss: 0.3866 - accuracy: 0.8600 - 5s/epoch - 58ms/step
+Epoch 17/20
+84/84 - 5s - loss: 0.3709 - accuracy: 0.8669 - 5s/epoch - 54ms/step
+Epoch 18/20
+84/84 - 5s - loss: 0.3631 - accuracy: 0.8702 - 5s/epoch - 55ms/step
+Epoch 19/20
+84/84 - 5s - loss: 0.3445 - accuracy: 0.8792 - 5s/epoch - 54ms/step
+Epoch 20/20
+84/84 - 5s - loss: 0.3392 - accuracy: 0.8819 - 5s/epoch - 55ms/step
+[2023-11-05 12:39:43] Saving model weights to directory: models\24\C 
+[2023-11-05 12:39:43] ===========================================================
+
+ 
+[2023-11-05 12:39:43] Training is initiated for time window: 24 and flare class: M 

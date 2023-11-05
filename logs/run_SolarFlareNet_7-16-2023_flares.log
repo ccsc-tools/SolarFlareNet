@@ -1,0 +1,242 @@
+
+
+
+
+
+
+Testing is initiated for flare class: C
+
+
+Testing is initiated for flare class: C
+
+
+Testing is initiated for flare class: C
+y_train_data.set: {'P', 'N'}
+data Flares postive and negative: 29058 13769
+y_train_data.set: {0, 1}
+[2023-07-16 15:16:30] Loading weights from model dir: models\24\C 
+Predicting test data set samples..
+y_pred: [1 1 1 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\C.csv
+
+
+Testing is initiated for flare class: C
+y_train_data.set: {0, 1}
+[2023-07-16 15:17:28] Loading weights from model dir: models\24\C 
+Predicting test data set samples..
+y_pred: [1 1 1 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\C.csv
+
+
+Testing is initiated for flare class: C
+y_train_data.set: {0, 1}
+[2023-07-16 15:18:40] Loading weights from model dir: models\24\C 
+Predicting test data set samples..
+y_pred: [1 1 1 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\C24.csv
+
+
+Testing is initiated for flare class: C
+
+
+Testing is initiated for flare class: C
+y_train_data.set: {0, 1}
+[2023-07-16 15:23:28] Loading weights from model dir: models\24\C 
+
+
+
+
+
+
+Testing is initiated for time_window: 24 and flare class: C
+[2023-07-16 15:25:41] Loading weights from model dir: models\24\C 
+Predicting test data set samples..
+y_pred: [1 1 1 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\C_24.csv
+Testing is initiated for time_window: 24 and flare class: M
+[2023-07-16 15:25:57] Loading weights from model dir: models\24\M 
+Predicting test data set samples..
+y_pred: [0 0 0 ... 1 1 1]
+Saving result to file: result\SolarFlareNet\M_24.csv
+Testing is initiated for time_window: 24 and flare class: M5
+[2023-07-16 15:26:19] Loading weights from model dir: models\24\M5 
+Predicting test data set samples..
+y_pred: [0 0 0 ... 1 1 1]
+Saving result to file: result\SolarFlareNet\M5_24.csv
+Testing is initiated for time_window: 48 and flare class: C
+[2023-07-16 15:26:42] Loading weights from model dir: models\48\C 
+Predicting test data set samples..
+y_pred: [0 0 1 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\C_48.csv
+Testing is initiated for time_window: 48 and flare class: M
+[2023-07-16 15:27:05] Loading weights from model dir: models\48\M 
+Predicting test data set samples..
+y_pred: [0 0 0 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\M_48.csv
+Testing is initiated for time_window: 48 and flare class: M5
+[2023-07-16 15:27:32] Loading weights from model dir: models\48\M5 
+Predicting test data set samples..
+y_pred: [0 0 0 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\M5_48.csv
+Testing is initiated for time_window: 72 and flare class: C
+
+
+[2023-07-16 15:28:01] Loading weights from model dir: models\72\C 
+
+
+[2023-07-16 15:28:08] Training is initiated for time window: 24 and flare class: C 
+Predicting test data set samples..
+y_pred: [1 0 1 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\C_72.csv
+Testing is initiated for time_window: 72 and flare class: M
+[2023-07-16 15:28:22] Loading weights from model dir: models\72\M 
+Predicting test data set samples..
+y_pred: [0 0 0 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\M_72.csv
+Testing is initiated for time_window: 72 and flare class: M5
+84/84 - 32s - loss: 0.7870 - accuracy: 0.6762 - 32s/epoch - 381ms/step
+[2023-07-16 15:28:50] Saving model weights to directory: models\24\C 
+[2023-07-16 15:29:06] Loading weights from model dir: models\72\M5 
+Predicting test data set samples..
+y_pred: [0 0 0 ... 0 0 0]
+Saving result to file: result\SolarFlareNet\M5_72.csv
+
+
+[2023-07-16 15:30:29] Testing is initiated for time_window: 24 and flare class: C 
+[2023-07-16 15:30:33] Loading weights from model dir: models\24\C 
+[2023-07-16 15:30:33] Predicting test data set samples.. 
+[2023-07-16 15:30:47] Saving result to file: result\SolarFlareNet\C_24.csv 
+[2023-07-16 15:30:53] ===========================================================
+
+ 
+[2023-07-16 15:30:53] Testing is initiated for time_window: 24 and flare class: M 
+[2023-07-16 15:31:02] Loading weights from model dir: models\24\M 
+[2023-07-16 15:31:03] Predicting test data set samples.. 
+[2023-07-16 15:31:08] Saving result to file: result\SolarFlareNet\M_24.csv 
+[2023-07-16 15:31:15] ===========================================================
+
+ 
+[2023-07-16 15:31:15] Testing is initiated for time_window: 24 and flare class: M5 
+[2023-07-16 15:31:24] Loading weights from model dir: models\24\M5 
+[2023-07-16 15:31:26] Predicting test data set samples.. 
+
+
+[2023-07-16 15:32:14] Testing is initiated for time_window: 24 and flare class: C 
+[2023-07-16 15:32:18] Loading weights from model dir: models\24\C 
+[2023-07-16 15:32:18] Predicting test data set samples.. 
+[2023-07-16 15:32:30] Saving result to file: result\SolarFlareNet\C_24.csv 
+[2023-07-16 15:32:37] ===========================================================
+
+ 
+[2023-07-16 15:32:37] Testing is initiated for time_window: 24 and flare class: M 
+[2023-07-16 15:32:45] Loading weights from model dir: models\24\M 
+[2023-07-16 15:32:46] Predicting test data set samples.. 
+[2023-07-16 15:32:50] Saving result to file: result\SolarFlareNet\M_24.csv 
+[2023-07-16 15:32:57] ===========================================================
+
+ 
+[2023-07-16 15:32:57] Testing is initiated for time_window: 24 and flare class: M5 
+[2023-07-16 15:33:06] Loading weights from model dir: models\24\M5 
+[2023-07-16 15:33:07] Predicting test data set samples.. 
+[2023-07-16 15:33:11] Saving result to file: result\SolarFlareNet\M5_24.csv 
+[2023-07-16 15:33:18] ===========================================================
+
+ 
+[2023-07-16 15:33:18] Testing is initiated for time_window: 48 and flare class: C 
+
+
+[2023-07-16 15:33:28] Training is initiated for time window: 24 and flare class: C 
+[2023-07-16 15:33:28] Loading weights from model dir: models\48\C 
+[2023-07-16 15:33:29] Predicting test data set samples.. 
+[2023-07-16 15:33:38] Saving result to file: result\SolarFlareNet\C_48.csv 
+[2023-07-16 15:33:41] ===========================================================
+
+ 
+[2023-07-16 15:33:41] Training is initiated for time window: 24 and flare class: M 
+[2023-07-16 15:33:45] ===========================================================
+
+ 
+[2023-07-16 15:33:45] Testing is initiated for time_window: 48 and flare class: M 
+[2023-07-16 15:33:48] ===========================================================
+
+ 
+[2023-07-16 15:33:48] Training is initiated for time window: 24 and flare class: M5 
+[2023-07-16 15:33:58] Loading weights from model dir: models\48\M 
+[2023-07-16 15:33:59] Predicting test data set samples.. 
+[2023-07-16 15:34:05] Saving result to file: result\SolarFlareNet\M_48.csv 
+[2023-07-16 15:34:13] ===========================================================
+
+ 
+[2023-07-16 15:34:13] Testing is initiated for time_window: 48 and flare class: M5 
+[2023-07-16 15:34:27] Loading weights from model dir: models\48\M5 
+[2023-07-16 15:34:29] Predicting test data set samples.. 
+[2023-07-16 15:34:34] Saving result to file: result\SolarFlareNet\M5_48.csv 
+[2023-07-16 15:34:44] ===========================================================
+
+ 
+[2023-07-16 15:34:44] Testing is initiated for time_window: 72 and flare class: C 
+[2023-07-16 15:34:56] Loading weights from model dir: models\72\C 
+[2023-07-16 15:34:56] Predicting test data set samples.. 
+[2023-07-16 15:35:00] Saving result to file: result\SolarFlareNet\C_72.csv 
+[2023-07-16 15:35:02] ===========================================================
+
+ 
+[2023-07-16 15:35:02] Testing is initiated for time_window: 72 and flare class: M 
+[2023-07-16 15:35:07] Loading weights from model dir: models\72\M 
+[2023-07-16 15:35:08] Predicting test data set samples.. 
+[2023-07-16 15:35:11] Saving result to file: result\SolarFlareNet\M_72.csv 
+[2023-07-16 15:35:14] ===========================================================
+
+ 
+[2023-07-16 15:35:14] Testing is initiated for time_window: 72 and flare class: M5 
+[2023-07-16 15:35:19] Loading weights from model dir: models\72\M5 
+[2023-07-16 15:35:19] Predicting test data set samples.. 
+[2023-07-16 15:35:22] Saving result to file: result\SolarFlareNet\M5_72.csv 
+[2023-07-16 15:35:34] ===========================================================
+
+ 
+
+
+[2023-07-16 12:35:39] Training is initiated for time window: 24 and flare class: C 
+
+
+[2023-07-16 15:36:44] Training is initiated for time window: 24 and flare class: C 
+Epoch 1/20
+
+
+[2023-07-16 15:37:31] Training is initiated for time window: 24 and flare class: C 
+[2023-07-16 15:37:35] ===========================================================
+
+ 
+[2023-07-16 15:37:35] Training is initiated for time window: 24 and flare class: M 
+[2023-07-16 15:37:40] ===========================================================
+
+ 
+[2023-07-16 15:37:40] Training is initiated for time window: 24 and flare class: M5 
+[2023-07-16 15:37:46] ===========================================================
+
+ 
+[2023-07-16 15:37:46] Training is initiated for time window: 48 and flare class: C 
+[2023-07-16 15:37:50] ===========================================================
+
+ 
+[2023-07-16 15:37:50] Training is initiated for time window: 48 and flare class: M 
+[2023-07-16 15:37:56] ===========================================================
+
+ 
+[2023-07-16 15:37:56] Training is initiated for time window: 48 and flare class: M5 
+[2023-07-16 15:38:03] ===========================================================
+
+ 
+[2023-07-16 15:38:03] Training is initiated for time window: 72 and flare class: C 
+[2023-07-16 15:38:07] ===========================================================
+
+ 
+[2023-07-16 15:38:07] Training is initiated for time window: 72 and flare class: M 
+[2023-07-16 15:38:15] ===========================================================
+
+ 
+[2023-07-16 15:38:15] Training is initiated for time window: 72 and flare class: M5 
+[2023-07-16 15:38:30] ===========================================================
+
+ 
