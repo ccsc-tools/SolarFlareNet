@@ -298,7 +298,7 @@ def get_all_data(time_window, flare_class, noise_enabled=True):
     return get_data(flare_class,file_name, noise_enabled=noise_enabled)
 
 def get_training_data(time_window, flare_class):
-    file_name = 'data' + os.sep + 'testing_data_' + flare_class + '_' + time_window+'.csv'   
+    file_name = 'data' + os.sep + 'training_data_' + flare_class + '_' + time_window+'.csv'   
     return  get_data(flare_class,file_name, noise_enabled=True)
 
 def get_testing_data(time_window, flare_class):
