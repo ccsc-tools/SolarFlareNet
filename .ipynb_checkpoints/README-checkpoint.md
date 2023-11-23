@@ -1,5 +1,5 @@
-## Operational prediction of solar flares using a transformer-based framework<br>
-[![DOI](https://github.com/ccsc-tools/zenodo_icons/blob/main/icons/solarflarenet.svg)](https://zenodo.org/doi/10.5281/zenodo.10073489)
+## Operational Prediction of Solar Flares Using a Transformer-Based Framework<br>
+[![DOI](https://github.com/ccsc-tools/zenodo_icons/blob/main/icons/solarflarenet.svg)](https://zenodo.org/doi/10.5281/zenodo.10080716)
 
 
 ## Authors
