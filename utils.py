@@ -211,8 +211,8 @@ def load_data(datafile, flare_label, series_len, start_feature, n_features, mask
                 each_series_data.insert(0, tmp)
 
             if len(each_series_data) > 0:
-                c_ls = 'TOTUSJH,TOTUSJZ,USFLUX,TOTBSQ,R_VALUE,TOTPOT,SAVNCPP,AREA_ACR,ABSNJZH'.split(',')
-                c_all = 'TOTUSJH,Cdec,TOTUSJZ,Chis1d,USFLUX,TOTBSQ,R_VALUE,TOTPOT,Chis,SAVNCPP,AREA_ACR,Edec,Xmax1d,ABSNJZH'.split(',')
+                c_ls = 'TOTUSJH,TOTUSJZ,USFLUX,MEANALP,R_VALUE,TOTPOT,SAVNCPP,AREA_ACR,ABSNJZH'.split(',')
+                c_all = 'TOTUSJH,Cdec,TOTUSJZ,Chis1d,USFLUX,MEANALP,R_VALUE,TOTPOT,Chis,SAVNCPP,AREA_ACR,Edec,Xmax1d,ABSNJZH'.split(',')
                 for s1 in range(len(each_series_data)):
                     s1v = each_series_data[s1]
                     s11 =[]
